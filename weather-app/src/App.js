@@ -17,7 +17,7 @@ function App(props) {
 
         const fetchData = async () => {
         
-            fetch(`http://api.openweathermap.org/geo/1.0/zip?zip=84106&appid=1bdb1b9f3116ae704ebf5914990f04f2`)
+            fetch(`https://api.openweathermap.org/geo/1.0/zip?zip=84106&appid=1bdb1b9f3116ae704ebf5914990f04f2`)
                 .then(res => res.json())
                 .then(result => {
                     setLat(result.lat);

@@ -1,0 +1,25 @@
+.card{
+    min-height:100px;
+    width:14.28%;
+    background-color: #d5faff;
+    padding:2%;
+    border: 1px solid rgb(26, 26, 26);
+}
+.header{
+    color: #FF674D;
+    font-weight: 700;
+}
+.card-container{
+    display:flex;
+    justify-content: space-between;
+}
+.cityName{
+text-align: center;
+color:#d5faff;
+}
+h3{
+   color: #0F4C5C;
+}
+img.icon{
+    min-width:100px;
+}

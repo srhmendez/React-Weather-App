@@ -1,0 +1,29 @@
+div.inputs{
+    display:flex;
+    justify-content: center;
+}
+.map-icon{
+    width:20px;
+    height:20px;
+    margin-right:10px;
+    margin-left:5px;
+}
+.zip-code-label{
+    font-weight: 600;
+}
+.weather-week-container{
+    display:flex;
+    width:100%;
+    margin-top:3rem;
+}
+body{
+    background-color: rgb(114, 114, 114);
+}
+.loading{
+    text-align: center;
+    color: #d5faff;
+    font-size:40px;
+    padding-left:45%;
+    padding-top: 100px;
+    
+}
